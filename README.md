@@ -115,7 +115,6 @@ There is currently no direct `.osdb` or `collections.db` import flow inside osu!
    - **Recommended:** Import the `.osdb` through Collection Manager.
    - **Backup/advanced:** Use the provided `collections.db` only after backing up your current one.
 6. Launch stable and confirm the collections appear correctly.
-   > Note: Empty spacer collections may not appear because they contain zero maps (although the spacers will appear on lazer's dropdown)
 7. Open osu!lazer.
 8. Go to **Settings → Run setup wizard**.
 9. Skip to the import section.
