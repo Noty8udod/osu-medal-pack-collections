@@ -1,0 +1,6 @@
+v1.0 — 2026-06-03
+- Initial release
+- Covers Video Game Vol.1 through Project Loved: Best of 2024
+- Complete all-in-one .osdb import file included
+- Sorted individual pack collections included
+- .db backup format provided
