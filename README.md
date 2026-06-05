@@ -92,13 +92,9 @@ These sources are listed in recommended order.
 
 osekai indexes medals and their unlock requirements. Clicking a medal that requires a beatmap pack may show a download button or redirect to the official page.
 
-**3. osu!Collector**
+**3. [osu!Collector](https://osucollector.com/collections/22116/All-Medal-Giving-packs)**
 
-```
-<osu!Collector link — to be added>
-```
-
-Use this if you have osu!Collector access and want a fast way to add the collection and download missing maps.
+Use this if you have osu!Collector access and want a fast way to add the one mass collection and download missing maps.
 
 **4. [Official beatmap packs](https://osu.ppy.sh/beatmaps/packs)**
 
