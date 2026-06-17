@@ -9,7 +9,7 @@ A complete collection metadata set for every osu! beatmap pack that can grant me
 <table>
 <tr>
 <td><img src="https://github.com/Noty8udod/osu-medal-pack-collections/blob/main/screenshots/showcase.png?raw=true" width="500" alt="Collection list overview"></td>
-<td><img src="https://github.com/Noty8udod/osu-medal-pack-collections/blob/main/screenshots/showcase2.1.png?raw=true" width="500" alt="Collection list ending"></td>
+<td><img src="https://github.com/Noty8udod/osu-medal-pack-collections/blob/main/screenshots/showcase2.2.png?raw=true" width="500" alt="Collection list ending"></td>
 </tr>
 </table>
 
