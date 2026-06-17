@@ -1,7 +1,7 @@
-# All Medal Beatmap Pack Collections v1.0
+# All Medal Beatmap Pack Collections v1.1
 
 A complete collection metadata set for every osu! beatmap pack that can grant medals, covering **Video Game Vol.1** through **Project Loved: Best of 2024**.
-> ✅ Verified as of **June 4, 2026**  
+> ✅ Verified/Updated as of **June 17, 2026**  
 > 📦 This is **not** a beatmap mirror and does **not** include `.osz` beatmap files.
 
 > 💡 **Medal-clearing tip:** This repository organizes the beatmap pack collections, but some medals have special unlock conditions. Use **[osekai medals](https://inex.osekai.net/medals/)** to check requirements, solutions, mod restrictions, and game mode requirements. Some maps only appear in their own game mode, so they may not show in osu!standard.
@@ -9,7 +9,7 @@ A complete collection metadata set for every osu! beatmap pack that can grant me
 <table>
 <tr>
 <td><img src="https://github.com/Noty8udod/osu-medal-pack-collections/blob/main/screenshots/showcase.png?raw=true" width="500" alt="Collection list overview"></td>
-<td><img src="https://github.com/Noty8udod/osu-medal-pack-collections/blob/main/screenshots/showcase2.png?raw=true" width="500" alt="Collection list ending"></td>
+<td><img src="https://github.com/Noty8udod/osu-medal-pack-collections/blob/main/screenshots/showcase2.1.png?raw=true" width="500" alt="Collection list ending"></td>
 </tr>
 </table>
 
@@ -35,8 +35,8 @@ This resource is for medal hunters who want clean, organized collections for eve
 
 | File | Purpose |
 |---|---|
-| `All_Medal_Beatmap_Packs_v1.0.osdb` | Recommended import file for Collection Manager |
-| `All_Medal_Beatmap_Packs_v1.0_collections.db` | Backup collection database |
+| `All_Medal_Beatmap_Packs_v1.1.osdb` | Recommended import file for Collection Manager |
+| `All_Medal_Beatmap_Packs_v1.1.db` | Backup collection database |
 | `Iconic_and_Notable_osu_Maps_v1.0.osdb` | Optional curated iconic/notable maps collection |
 | `Iconic_and_Notable_osu_Maps_v1.0_collections.db` | Backup db for the optional iconic/notable maps collection |
 | `CHANGELOG.txt` | Version history |
@@ -63,14 +63,14 @@ The `.osdb` format is recommended because it handles missing maps better and is 
 
 1. Close osu!.
 2. Back up your current `collections.db`.
-3. Download `All_Medal_Beatmap_Packs_v1.0.osdb`.
+3. Download `All_Medal_Beatmap_Packs_v1.1.osdb`.
 4. Open **Collection Manager**.
 5. Drop the `.osdb` file into Collection Manager.
 6. Import and save the collections.
 7. Open osu! stable and confirm the collections appear correctly.
 8. *(osu!lazer users)* Run the setup wizard in lazer's settings and import your collections from stable.
 
-> Only use `All_Medal_Beatmap_Packs_v1.0_collections.db` if you know what you are doing. Directly replacing `collections.db` can overwrite your existing personal collections if you did not back them up first.
+> Only use `All_Medal_Beatmap_Packs_v1.1.db` if you know what you are doing. Directly replacing `collections.db` can overwrite your existing personal collections if you did not back them up first.
 
 ---
 
@@ -81,7 +81,7 @@ These sources are listed in recommended order.
 **1. [Collection Manager](https://github.com/Piotrekol/CollectionManager/releases)** *(recommended)*
 
 1. Open **Collection Manager**.
-2. Drop `All_Medal_Beatmap_Packs_v1.0.osdb` into Collection Manager.
+2. Drop `All_Medal_Beatmap_Packs_v1.1.osdb` into Collection Manager.
 3. Click **Online**.
 4. Select **Download All Missing Maps**.
 5. Save and import the collections.
@@ -165,7 +165,7 @@ osu! and osu!lazer sort collections alphabetically with no manual ordering overr
 ```
 0001 Video Game Vol.1
 ...
-0115 Project Loved: Best of 2024
+0121 Project Loved: Best of 2025
 ```
 
 **To keep your personal collections above these, prefix them with a period:**
