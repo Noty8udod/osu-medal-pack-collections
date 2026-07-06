@@ -1,13 +1,20 @@
-# All Medal Beatmap Pack Collections v1.1
+<h1 align="center">All Medal Beatmap Pack Collections</h1>
+
+<p align="center">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.1-ff66ab">
+  <img alt="Format" src="https://img.shields.io/badge/format-.osdb-8b5cf6">
+  <img alt="No beatmap files" src="https://img.shields.io/badge/no%20.osz%20files-metadata%20only-f97316">
+  <img alt="Verified" src="https://img.shields.io/badge/verified-June%2017%2C%202026-2ea44f">
+</p>
 
 Collection files for osu! medal hunters who want every medal-giving beatmap pack organized without building all the collections by hand.
 
 📦 Covers **Video Game Vol.1** through **Project Loved: Best of 2025**.
 
-✅ Verified/updated as of **June 17, 2026**.
+> [!IMPORTANT]
+> This is **not** a beatmap mirror. No `.osz` beatmap files, songs, backgrounds, or beatmap assets are included.
 
->  This is **not** a beatmap mirror. No `.osz` beatmap files, songs, backgrounds, or beatmap assets are included.
-
+> [!TIP]
 > **Medal tip:** This repo organizes the pack collections, but some medals have extra unlock conditions. Use **[osekai medals](https://inex.osekai.net/medals/)** to check requirements, solutions, mod restrictions, and game mode requirements. Some maps only show under their own game mode, so they may not appear in osu!standard.
 
 <table>
@@ -19,15 +26,15 @@ Collection files for osu! medal hunters who want every medal-giving beatmap pack
 
 ## Table of contents
 
-* [What this is](#what-this-is)
-* [Quick start](#quick-start)
-* [Downloading missing maps](#downloading-missing-maps)
-* [Optional bonus collection](#optional-bonus-collection)
-* [osu!lazer import](#osulazer-import)
-* [Collection ordering](#collection-ordering)
-* [Reporting issues](#reporting-issues)
-* [Project note](#project-note)
-* [License](#license)
+- [What this is](#what-this-is)
+- [Quick start](#quick-start)
+- [Downloading missing maps](#downloading-missing-maps)
+- [Optional bonus collection](#optional-bonus-collection)
+- [osu!lazer import](#osulazer-import)
+- [Collection ordering](#collection-ordering)
+- [Reporting issues](#reporting-issues)
+- [Project note](#project-note)
+- [License](#license)
 
 ---
 
@@ -39,24 +46,25 @@ It also gives pack clearing a little more structure. Instead of only chasing lea
 
 ## Included files
 
-| File                                              | Purpose                                        |
-| ------------------------------------------------- | ---------------------------------------------- |
-| `All_Medal_Beatmap_Packs_v1.1.osdb`               | Recommended import file for Collection Manager |
-| `All_Medal_Beatmap_Packs_v1.1.db`                 | Backup collection database                     |
-| `Iconic_and_Notable_osu_Maps_v1.0.osdb`           | Optional iconic/notable maps collection        |
-| `Iconic_and_Notable_osu_Maps_v1.0_collections.db` | Backup database for the optional collection    |
-| `CHANGELOG.txt`                                   | Version history                                |
-| `screenshots/`                                    | Preview images of the collection list          |
+| File | Purpose |
+| --- | --- |
+| `All_Medal_Beatmap_Packs_v1.1.osdb` | Recommended import file for Collection Manager |
+| `All_Medal_Beatmap_Packs_v1.1.db` | Backup collection database |
+| `Iconic_and_Notable_osu_Maps_v1.0.osdb` | Optional iconic/notable maps collection |
+| `Iconic_and_Notable_osu_Maps_v1.0_collections.db` | Backup database for the optional collection |
+| `CHANGELOG.txt` | Version history |
+| `screenshots/` | Preview images of the collection list |
 
 ## Includes
 
-* One all-in-one `.osdb` file for medal-giving beatmap packs
-* Individual collections sorted by pack/category
-* Featured Artist medal packs
-* Mappers' Guild medal packs
-* Project Loved medal packs
-* Optional iconic/notable osu! maps collection
+- One all-in-one `.osdb` file for medal-giving beatmap packs
+- Individual collections sorted by pack/category
+- Featured Artist medal packs
+- Mappers' Guild medal packs
+- Project Loved medal packs
+- Optional iconic/notable osu! maps collection
 
+> [!IMPORTANT]
 > This repository only contains collection metadata. It does not redistribute `.osz` files, songs, backgrounds, beatmap assets, or any other copyrighted content.
 
 ---
@@ -67,7 +75,8 @@ Use the `.osdb` file with **[Collection Manager](https://github.com/Piotrekol/Co
 
 The `.osdb` file is recommended because it handles missing maps better and is easier to share than a raw `collections.db` file. The `.db` backup is mostly there for people who already know what they are doing and have the required maps downloaded.
 
-**Back up your current `collections.db` before importing anything.**
+> [!WARNING]
+> Back up your current `collections.db` before importing anything.
 
 1. Close osu!.
 2. Back up your current `collections.db`.
@@ -78,6 +87,7 @@ The `.osdb` file is recommended because it handles missing maps better and is ea
 7. Open osu!stable and confirm the collections show up correctly.
 8. If you use osu!lazer, run the setup wizard in lazer and import your collections from stable.
 
+> [!WARNING]
 > Only use `All_Medal_Beatmap_Packs_v1.1.db` if you know what you are doing. Replacing `collections.db` directly can overwrite your personal collections if you did not back them up first.
 
 ---
@@ -98,6 +108,7 @@ These are listed in the order I would try them.
 6. Open osu!stable and confirm the collections show up correctly.
 7. If you use lazer, run the setup wizard and import from stable.
 
+> [!NOTE]
 > Collection Manager may require osu! cookies for online lookup/download features.
 
 ### 2. osekai medals
@@ -132,24 +143,24 @@ The idea is to give newer, returning, or curious players a cleaner way to explor
 
 It includes themed collections for things like:
 
-* older legends
-* leaderboard-history maps
-* stamina culture
-* jump training
-* tech mapping
-* Loved chaos
-* other recognizable parts of osu! history
+- older legends
+- leaderboard-history maps
+- stamina culture
+- jump training
+- tech mapping
+- Loved chaos
+- other recognizable parts of osu! history
 
 Important notes:
 
-* This is optional.
-* This is not required for medal hunting.
-* This slots in at the bottom after the normal medal pack collections.
-* This is not an official osu! beatmap pack.
-* This is subjective and curated.
-* This is not a complete historical archive.
-* This does not include `.osz` files.
-* This is collection metadata only.
+- This is optional.
+- This is not required for medal hunting.
+- This slots in at the bottom after the normal medal pack collections.
+- This is not an official osu! beatmap pack.
+- This is subjective and curated.
+- This is not a complete historical archive.
+- This does not include `.osz` files.
+- This is collection metadata only.
 
 Recommended file:
 
@@ -174,9 +185,8 @@ osu!lazer does not currently have a direct `.osdb` or `collections.db` import fl
 3. Create at least one test collection in stable so the collection database exists.
 4. Close stable.
 5. Import these collections into stable:
-
-   * Recommended: import the `.osdb` through Collection Manager.
-   * Advanced: use the provided `collections.db` only after backing up your current one.
+   - Recommended: import the `.osdb` through Collection Manager.
+   - Advanced: use the provided `collections.db` only after backing up your current one.
 6. Launch stable and confirm the collections show up correctly.
 7. Open osu!lazer.
 8. Go to **Settings → Run setup wizard**.
@@ -208,6 +218,7 @@ To keep your personal collections above these, prefix them with a period:
 
 The period sorts those collections toward the top alphabetically.
 
+> [!WARNING]
 > Rename personal collections inside osu!, not inside Collection Manager. Manually reordering inside Collection Manager may cause it to reorganize or renumber entries using its own scheme, which may not carry over cleanly to stable or lazer.
 
 ---
@@ -218,10 +229,10 @@ If a map is missing or wrong, please open a GitHub issue.
 
 Helpful details:
 
-* Pack name
-* Missing or incorrect beatmap
-* osu! beatmap link, if available
-* Screenshot, if useful
+- Pack name
+- Missing or incorrect beatmap
+- osu! beatmap link, if available
+- Screenshot, if useful
 
 Version names use this format:
 
@@ -268,4 +279,5 @@ osu! profile: https://osu.ppy.sh/users/15181421
 Original repository: https://github.com/Noty8udod/osu-medal-pack-collections
 ```
 
+> [!NOTE]
 > This license only applies to the files in this repository. It does not apply to osu!, beatmaps, beatmap assets, songs, backgrounds, or any third-party content.
